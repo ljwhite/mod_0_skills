@@ -1,0 +1,13 @@
+Class: Oven
+
+Attributes:
+temperature (integer)
+is_empty (boolean)
+timer (float)
+brand (string)
+
+Methods:
+insert_food (Put food into oven. Affects is_empty; uses temperature)
+remove_food (Remove food from oven. Affects is_empty; uses timer)
+display_oven_info (Display temperature and timer status. Uses temperature and timer)
+set_timer (Set the oven timer to ring when the timer is 0. Affects timer ; uses is_empty and temperature)
