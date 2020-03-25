@@ -3,7 +3,7 @@ Class: Oven
 Attributes:
 temperature (integer)
 is_empty (boolean)
-timer (float)
+timer (float, minutes)
 brand (string)
 
 Methods:
