@@ -1,0 +1,11 @@
+Ruby
+
+food = 'pizza'
+is_new == true
+food = 'pancake' #reassign variable food
+num1 = 15
+num2 = 20
+num3 = num1 * num2
+movies = ['Tommy Boy','Happy Gilmore','Aliens'] #declaring array
+movies.pop #removes the last element of the array movies
+movies.count #returns number of elements of array movies
