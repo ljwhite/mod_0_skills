@@ -5,9 +5,10 @@ knife_type (string)
 is_sharp (boolean)
 knife_length (float, inches)
 owner_name (string)
+is_dirty (boolean)
 
 Methods:
-chop (use a short movement to cut; could modify attribute is_sharp)
+chop (use a short movement to cut; could modify attribute is_sharp and is_clean)
 change_owner (change of ownership; would modify attribute owner_name)
-be_cleaned
-be_sharpened (would modify attribute is_sharp)
+be_cleaned (would modify attribute is_clean)
+be_sharpened (would modify attribute is_sharp, could modify attribute is_clean)

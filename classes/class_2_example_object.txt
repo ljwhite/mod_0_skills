@@ -1,10 +1,10 @@
 Object: Kitchen Oven
 
 Attributes:
-temperature: 350
-is_empty: false
-timer: 60
-brand: KitchenAid
+temperature = 350
+is_empty = false
+timer = 60
+brand = "KitchenAid"
 
 Methods:
 insert_food: Food is inserted into oven once temperature is reached and timer is set. Attribute is_empty is now false
